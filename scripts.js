@@ -670,27 +670,40 @@ function generatePieChart(data) {
     document.getElementById('summary-chart').innerHTML = '';
     document.getElementById('summary-chart').appendChild(ctx);
 
+    const chartData = [
+        calculatePercentage(data.gv),
+        calculatePercentage(data.id),
+        calculatePercentage(data.pr),
+        calculatePercentage(data.de),
+        calculatePercentage(data.rs),
+        calculatePercentage(data.rc)
+    ];
+
     new Chart(ctx, {
         type: 'pie',
         data: {
             labels: ['Governance', 'Identify', 'Protect', 'Detect', 'Respond', 'Recover'],
             datasets: [{
-                data: [
-                    calculatePercentage(data.gv),
-                    calculatePercentage(data.id),
-                    calculatePercentage(data.pr),
-                    calculatePercentage(data.de),
-                    calculatePercentage(data.rs),
-                    calculatePercentage(data.rc)
-                ],
+                data: chartData,
                 backgroundColor: ['#2980b9', '#27ae60', '#f39c12', '#e74c3c', '#8e44ad', '#34495e']
             }]
         },
         options: {
-            responsive: true
-        }
+            responsive: true,
+            plugins: {
+                datalabels: {
+                    formatter: (value) => {
+                        return value + "%";
+                    },
+                    color: '#fff',
+                    display: 'auto'
+                }
+            }
+        },
+        plugins: [ChartDataLabels]
     });
 }
+
 
 function generateSummaryTable(data) {
     const summaryTable = document.getElementById('summary-table');
