@@ -175,6 +175,10 @@ function gatherData() {
                 gvOc04: {
                     current: document.getElementById('gv-oc-04-current').value,
                     target: document.getElementById('gv-oc-04-target').value
+                },
+                gvOc05: {
+                    current: document.getElementById('gv-oc-05-current').value,
+                    target: document.getElementById('gv-oc-05-target').value
                 }
             },
             gvRm: {
@@ -189,6 +193,22 @@ function gatherData() {
                 gvRm03: {
                     current: document.getElementById('gv-rm-03-current').value,
                     target: document.getElementById('gv-rm-03-target').value
+                },
+                gvRm04: {
+                    current: document.getElementById('gv-rm-04-current').value,
+                    target: document.getElementById('gv-rm-04-target').value
+                },
+                gvRm05: {
+                    current: document.getElementById('gv-rm-05-current').value,
+                    target: document.getElementById('gv-rm-05-target').value
+                },
+                gvRm06: {
+                    current: document.getElementById('gv-rm-06-current').value,
+                    target: document.getElementById('gv-rm-06-target').value
+                },
+                gvRm07: {
+                    current: document.getElementById('gv-rm-07-current').value,
+                    target: document.getElementById('gv-rm-07-target').value
                 }
             },
             gvRr: {
@@ -203,6 +223,10 @@ function gatherData() {
                 gvRr03: {
                     current: document.getElementById('gv-rr-03-current').value,
                     target: document.getElementById('gv-rr-03-target').value
+                },
+                gvRr04: {
+                    current: document.getElementById('gv-rr-04-current').value,
+                    target: document.getElementById('gv-rr-04-target').value
                 }
             },
             gvPo: {
@@ -219,12 +243,56 @@ function gatherData() {
                 gvOv01: {
                     current: document.getElementById('gv-ov-01-current').value,
                     target: document.getElementById('gv-ov-01-target').value
+                },
+                gvOv02: {
+                    current: document.getElementById('gv-ov-02-current').value,
+                    target: document.getElementById('gv-ov-02-target').value
+                },
+                gvOv03: {
+                    current: document.getElementById('gv-ov-03-current').value,
+                    target: document.getElementById('gv-ov-03-target').value
                 }
             },
             gvSc: {
                 gvSc01: {
                     current: document.getElementById('gv-sc-01-current').value,
                     target: document.getElementById('gv-sc-01-target').value
+                },
+                gvSc02: {
+                    current: document.getElementById('gv-sc-02-current').value,
+                    target: document.getElementById('gv-sc-02-target').value
+                },
+                gvSc03: {
+                    current: document.getElementById('gv-sc-03-current').value,
+                    target: document.getElementById('gv-sc-03-target').value
+                },
+                gvSc04: {
+                    current: document.getElementById('gv-sc-04-current').value,
+                    target: document.getElementById('gv-sc-04-target').value
+                },
+                gvSc05: {
+                    current: document.getElementById('gv-sc-05-current').value,
+                    target: document.getElementById('gv-sc-05-target').value
+                },
+                gvSc06: {
+                    current: document.getElementById('gv-sc-06-current').value,
+                    target: document.getElementById('gv-sc-06-target').value
+                },
+                gvSc07: {
+                    current: document.getElementById('gv-sc-07-current').value,
+                    target: document.getElementById('gv-sc-07-target').value
+                },
+                gvSc08: {
+                    current: document.getElementById('gv-sc-08-current').value,
+                    target: document.getElementById('gv-sc-08-target').value
+                },
+                gvSc09: {
+                    current: document.getElementById('gv-sc-09-current').value,
+                    target: document.getElementById('gv-sc-09-target').value
+                },
+                gvSc10: {
+                    current: document.getElementById('gv-sc-10-current').value,
+                    target: document.getElementById('gv-sc-10-target').value
                 }
             }
         },
@@ -237,6 +305,26 @@ function gatherData() {
                 idAm02: {
                     current: document.getElementById('id-am-02-current').value,
                     target: document.getElementById('id-am-02-target').value
+                },
+                idAm03: {
+                    current: document.getElementById('id-am-03-current').value,
+                    target: document.getElementById('id-am-03-target').value
+                },
+                idAm04: {
+                    current: document.getElementById('id-am-04-current').value,
+                    target: document.getElementById('id-am-04-target').value
+                },
+                idAm05: {
+                    current: document.getElementById('id-am-05-current').value,
+                    target: document.getElementById('id-am-05-target').value
+                },
+                idAm07: {
+                    current: document.getElementById('id-am-07-current').value,
+                    target: document.getElementById('id-am-07-target').value
+                },
+                idAm08: {
+                    current: document.getElementById('id-am-08-current').value,
+                    target: document.getElementById('id-am-08-target').value
                 }
             },
             idRa: {
@@ -247,6 +335,38 @@ function gatherData() {
                 idRa02: {
                     current: document.getElementById('id-ra-02-current').value,
                     target: document.getElementById('id-ra-02-target').value
+                },
+                idRa03: {
+                    current: document.getElementById('id-ra-03-current').value,
+                    target: document.getElementById('id-ra-03-target').value
+                },
+                idRa04: {
+                    current: document.getElementById('id-ra-04-current').value,
+                    target: document.getElementById('id-ra-04-target').value
+                },
+                idRa05: {
+                    current: document.getElementById('id-ra-05-current').value,
+                    target: document.getElementById('id-ra-05-target').value
+                },
+                idRa06: {
+                    current: document.getElementById('id-ra-06-current').value,
+                    target: document.getElementById('id-ra-06-target').value
+                },
+                idRa07: {
+                    current: document.getElementById('id-ra-07-current').value,
+                    target: document.getElementById('id-ra-07-target').value
+                },
+                idRa08: {
+                    current: document.getElementById('id-ra-08-current').value,
+                    target: document.getElementById('id-ra-08-target').value
+                },
+                idRa09: {
+                    current: document.getElementById('id-ra-09-current').value,
+                    target: document.getElementById('id-ra-09-target').value
+                },
+                idRa10: {
+                    current: document.getElementById('id-ra-10-current').value,
+                    target: document.getElementById('id-ra-10-target').value
                 }
             },
             idIm: {
@@ -257,6 +377,14 @@ function gatherData() {
                 idIm02: {
                     current: document.getElementById('id-im-02-current').value,
                     target: document.getElementById('id-im-02-target').value
+                },
+                idIm03: {
+                    current: document.getElementById('id-im-03-current').value,
+                    target: document.getElementById('id-im-03-target').value
+                },
+                idIm04: {
+                    current: document.getElementById('id-im-04-current').value,
+                    target: document.getElementById('id-im-04-target').value
                 }
             }
         },
@@ -269,6 +397,22 @@ function gatherData() {
                 prAa02: {
                     current: document.getElementById('pr-aa-02-current').value,
                     target: document.getElementById('pr-aa-02-target').value
+                },
+                prAa03: {
+                    current: document.getElementById('pr-aa-03-current').value,
+                    target: document.getElementById('pr-aa-03-target').value
+                },
+                prAa04: {
+                    current: document.getElementById('pr-aa-04-current').value,
+                    target: document.getElementById('pr-aa-04-target').value
+                },
+                prAa05: {
+                    current: document.getElementById('pr-aa-05-current').value,
+                    target: document.getElementById('pr-aa-05-target').value
+                },
+                prAa06: {
+                    current: document.getElementById('pr-aa-06-current').value,
+                    target: document.getElementById('pr-aa-06-target').value
                 }
             },
             prAt: {
@@ -289,6 +433,14 @@ function gatherData() {
                 prDs02: {
                     current: document.getElementById('pr-ds-02-current').value,
                     target: document.getElementById('pr-ds-02-target').value
+                },
+                prDs10: {
+                    current: document.getElementById('pr-ds-10-current').value,
+                    target: document.getElementById('pr-ds-10-target').value
+                },
+                prDs11: {
+                    current: document.getElementById('pr-ds-11-current').value,
+                    target: document.getElementById('pr-ds-11-target').value
                 }
             },
             prPs: {
@@ -299,12 +451,40 @@ function gatherData() {
                 prPs02: {
                     current: document.getElementById('pr-ps-02-current').value,
                     target: document.getElementById('pr-ps-02-target').value
+                },
+                prPs03: {
+                    current: document.getElementById('pr-ps-03-current').value,
+                    target: document.getElementById('pr-ps-03-target').value
+                },
+                prPs04: {
+                    current: document.getElementById('pr-ps-04-current').value,
+                    target: document.getElementById('pr-ps-04-target').value
+                },
+                prPs05: {
+                    current: document.getElementById('pr-ps-05-current').value,
+                    target: document.getElementById('pr-ps-05-target').value
+                },
+                prPs06: {
+                    current: document.getElementById('pr-ps-06-current').value,
+                    target: document.getElementById('pr-ps-06-target').value
                 }
             },
             prIr: {
                 prIr01: {
                     current: document.getElementById('pr-ir-01-current').value,
                     target: document.getElementById('pr-ir-01-target').value
+                },
+                prIr02: {
+                    current: document.getElementById('pr-ir-02-current').value,
+                    target: document.getElementById('pr-ir-02-target').value
+                },
+                prIr03: {
+                    current: document.getElementById('pr-ir-03-current').value,
+                    target: document.getElementById('pr-ir-03-target').value
+                },
+                prIr04: {
+                    current: document.getElementById('pr-ir-04-current').value,
+                    target: document.getElementById('pr-ir-04-target').value
                 }
             }
         },
@@ -477,6 +657,7 @@ function importData(event) {
 }
 
 function populateData(data) {
+    // Governance
     document.getElementById('gv-oc-01-current').value = data.gv.gvOc.gvOc01.current;
     document.getElementById('gv-oc-01-target').value = data.gv.gvOc.gvOc01.target;
     document.getElementById('gv-oc-02-current').value = data.gv.gvOc.gvOc02.current;
@@ -485,56 +666,163 @@ function populateData(data) {
     document.getElementById('gv-oc-03-target').value = data.gv.gvOc.gvOc03.target;
     document.getElementById('gv-oc-04-current').value = data.gv.gvOc.gvOc04.current;
     document.getElementById('gv-oc-04-target').value = data.gv.gvOc.gvOc04.target;
+    document.getElementById('gv-oc-05-current').value = data.gv.gvOc.gvOc05.current;
+    document.getElementById('gv-oc-05-target').value = data.gv.gvOc.gvOc05.target;
+
     document.getElementById('gv-rm-01-current').value = data.gv.gvRm.gvRm01.current;
     document.getElementById('gv-rm-01-target').value = data.gv.gvRm.gvRm01.target;
     document.getElementById('gv-rm-02-current').value = data.gv.gvRm.gvRm02.current;
     document.getElementById('gv-rm-02-target').value = data.gv.gvRm.gvRm02.target;
     document.getElementById('gv-rm-03-current').value = data.gv.gvRm.gvRm03.current;
     document.getElementById('gv-rm-03-target').value = data.gv.gvRm.gvRm03.target;
+    document.getElementById('gv-rm-04-current').value = data.gv.gvRm.gvRm04.current;
+    document.getElementById('gv-rm-04-target').value = data.gv.gvRm.gvRm04.target;
+    document.getElementById('gv-rm-05-current').value = data.gv.gvRm.gvRm05.current;
+    document.getElementById('gv-rm-05-target').value = data.gv.gvRm.gvRm05.target;
+    document.getElementById('gv-rm-06-current').value = data.gv.gvRm.gvRm06.current;
+    document.getElementById('gv-rm-06-target').value = data.gv.gvRm.gvRm06.target;
+    document.getElementById('gv-rm-07-current').value = data.gv.gvRm.gvRm07.current;
+    document.getElementById('gv-rm-07-target').value = data.gv.gvRm.gvRm07.target;
+
     document.getElementById('gv-rr-01-current').value = data.gv.gvRr.gvRr01.current;
     document.getElementById('gv-rr-01-target').value = data.gv.gvRr.gvRr01.target;
     document.getElementById('gv-rr-02-current').value = data.gv.gvRr.gvRr02.current;
     document.getElementById('gv-rr-02-target').value = data.gv.gvRr.gvRr02.target;
     document.getElementById('gv-rr-03-current').value = data.gv.gvRr.gvRr03.current;
     document.getElementById('gv-rr-03-target').value = data.gv.gvRr.gvRr03.target;
+    document.getElementById('gv-rr-04-current').value = data.gv.gvRr.gvRr04.current;
+    document.getElementById('gv-rr-04-target').value = data.gv.gvRr.gvRr04.target;
+
     document.getElementById('gv-po-01-current').value = data.gv.gvPo.gvPo01.current;
     document.getElementById('gv-po-01-target').value = data.gv.gvPo.gvPo01.target;
     document.getElementById('gv-po-02-current').value = data.gv.gvPo.gvPo02.current;
     document.getElementById('gv-po-02-target').value = data.gv.gvPo.gvPo02.target;
+
     document.getElementById('gv-ov-01-current').value = data.gv.gvOv.gvOv01.current;
     document.getElementById('gv-ov-01-target').value = data.gv.gvOv.gvOv01.target;
+    document.getElementById('gv-ov-02-current').value = data.gv.gvOv.gvOv02.current;
+    document.getElementById('gv-ov-02-target').value = data.gv.gvOv.gvOv02.target;
+    document.getElementById('gv-ov-03-current').value = data.gv.gvOv.gvOv03.current;
+    document.getElementById('gv-ov-03-target').value = data.gv.gvOv.gvOv03.target;
+
     document.getElementById('gv-sc-01-current').value = data.gv.gvSc.gvSc01.current;
     document.getElementById('gv-sc-01-target').value = data.gv.gvSc.gvSc01.target;
+    document.getElementById('gv-sc-02-current').value = data.gv.gvSc.gvSc02.current;
+    document.getElementById('gv-sc-02-target').value = data.gv.gvSc.gvSc02.target;
+    document.getElementById('gv-sc-03-current').value = data.gv.gvSc.gvSc03.current;
+    document.getElementById('gv-sc-03-target').value = data.gv.gvSc.gvSc03.target;
+    document.getElementById('gv-sc-04-current').value = data.gv.gvSc.gvSc04.current;
+    document.getElementById('gv-sc-04-target').value = data.gv.gvSc.gvSc04.target;
+    document.getElementById('gv-sc-05-current').value = data.gv.gvSc.gvSc05.current;
+    document.getElementById('gv-sc-05-target').value = data.gv.gvSc.gvSc05.target;
+    document.getElementById('gv-sc-06-current').value = data.gv.gvSc.gvSc06.current;
+    document.getElementById('gv-sc-06-target').value = data.gv.gvSc.gvSc06.target;
+    document.getElementById('gv-sc-07-current').value = data.gv.gvSc.gvSc07.current;
+    document.getElementById('gv-sc-07-target').value = data.gv.gvSc.gvSc07.target;
+    document.getElementById('gv-sc-08-current').value = data.gv.gvSc.gvSc08.current;
+    document.getElementById('gv-sc-08-target').value = data.gv.gvSc.gvSc08.target;
+    document.getElementById('gv-sc-09-current').value = data.gv.gvSc.gvSc09.current;
+    document.getElementById('gv-sc-09-target').value = data.gv.gvSc.gvSc09.target;
+    document.getElementById('gv-sc-10-current').value = data.gv.gvSc.gvSc10.current;
+    document.getElementById('gv-sc-10-target').value = data.gv.gvSc.gvSc10.target;
+
+    // Identify
     document.getElementById('id-am-01-current').value = data.id.idAm.idAm01.current;
     document.getElementById('id-am-01-target').value = data.id.idAm.idAm01.target;
     document.getElementById('id-am-02-current').value = data.id.idAm.idAm02.current;
     document.getElementById('id-am-02-target').value = data.id.idAm.idAm02.target;
+    document.getElementById('id-am-03-current').value = data.id.idAm.idAm03.current;
+    document.getElementById('id-am-03-target').value = data.id.idAm.idAm03.target;
+    document.getElementById('id-am-04-current').value = data.id.idAm.idAm04.current;
+    document.getElementById('id-am-04-target').value = data.id.idAm.idAm04.target;
+    document.getElementById('id-am-05-current').value = data.id.idAm.idAm05.current;
+    document.getElementById('id-am-05-target').value = data.id.idAm.idAm05.target;
+    document.getElementById('id-am-07-current').value = data.id.idAm.idAm07.current;
+    document.getElementById('id-am-07-target').value = data.id.idAm.idAm07.target;
+    document.getElementById('id-am-08-current').value = data.id.idAm.idAm08.current;
+    document.getElementById('id-am-08-target').value = data.id.idAm.idAm08.target;
+
     document.getElementById('id-ra-01-current').value = data.id.idRa.idRa01.current;
     document.getElementById('id-ra-01-target').value = data.id.idRa.idRa01.target;
     document.getElementById('id-ra-02-current').value = data.id.idRa.idRa02.current;
     document.getElementById('id-ra-02-target').value = data.id.idRa.idRa02.target;
+    document.getElementById('id-ra-03-current').value = data.id.idRa.idRa03.current;
+    document.getElementById('id-ra-03-target').value = data.id.idRa.idRa03.target;
+    document.getElementById('id-ra-04-current').value = data.id.idRa.idRa04.current;
+    document.getElementById('id-ra-04-target').value = data.id.idRa.idRa04.target;
+    document.getElementById('id-ra-05-current').value = data.id.idRa.idRa05.current;
+    document.getElementById('id-ra-05-target').value = data.id.idRa.idRa05.target;
+    document.getElementById('id-ra-06-current').value = data.id.idRa.idRa06.current;
+    document.getElementById('id-ra-06-target').value = data.id.idRa.idRa06.target;
+    document.getElementById('id-ra-07-current').value = data.id.idRa.idRa07.current;
+    document.getElementById('id-ra-07-target').value = data.id.idRa.idRa07.target;
+    document.getElementById('id-ra-08-current').value = data.id.idRa.idRa08.current;
+    document.getElementById('id-ra-08-target').value = data.id.idRa.idRa08.target;
+    document.getElementById('id-ra-09-current').value = data.id.idRa.idRa09.current;
+    document.getElementById('id-ra-09-target').value = data.id.idRa.idRa09.target;
+    document.getElementById('id-ra-10-current').value = data.id.idRa.idRa10.current;
+    document.getElementById('id-ra-10-target').value = data.id.idRa.idRa10.target;
+
     document.getElementById('id-im-01-current').value = data.id.idIm.idIm01.current;
     document.getElementById('id-im-01-target').value = data.id.idIm.idIm01.target;
     document.getElementById('id-im-02-current').value = data.id.idIm.idIm02.current;
     document.getElementById('id-im-02-target').value = data.id.idIm.idIm02.target;
+    document.getElementById('id-im-03-current').value = data.id.idIm.idIm03.current;
+    document.getElementById('id-im-03-target').value = data.id.idIm.idIm03.target;
+    document.getElementById('id-im-04-current').value = data.id.idIm.idIm04.current;
+    document.getElementById('id-im-04-target').value = data.id.idIm.idIm04.target;
+
+    // Protect
     document.getElementById('pr-aa-01-current').value = data.pr.prAa.prAa01.current;
     document.getElementById('pr-aa-01-target').value = data.pr.prAa.prAa01.target;
     document.getElementById('pr-aa-02-current').value = data.pr.prAa.prAa02.current;
     document.getElementById('pr-aa-02-target').value = data.pr.prAa.prAa02.target;
+    document.getElementById('pr-aa-03-current').value = data.pr.prAa.prAa03.current;
+    document.getElementById('pr-aa-03-target').value = data.pr.prAa.prAa03.target;
+    document.getElementById('pr-aa-04-current').value = data.pr.prAa.prAa04.current;
+    document.getElementById('pr-aa-04-target').value = data.pr.prAa.prAa04.target;
+    document.getElementById('pr-aa-05-current').value = data.pr.prAa.prAa05.current;
+    document.getElementById('pr-aa-05-target').value = data.pr.prAa.prAa05.target;
+    document.getElementById('pr-aa-06-current').value = data.pr.prAa.prAa06.current;
+    document.getElementById('pr-aa-06-target').value = data.pr.prAa.prAa06.target;
+
     document.getElementById('pr-at-01-current').value = data.pr.prAt.prAt01.current;
     document.getElementById('pr-at-01-target').value = data.pr.prAt.prAt01.target;
     document.getElementById('pr-at-02-current').value = data.pr.prAt.prAt02.current;
     document.getElementById('pr-at-02-target').value = data.pr.prAt.prAt02.target;
+
     document.getElementById('pr-ds-01-current').value = data.pr.prDs.prDs01.current;
     document.getElementById('pr-ds-01-target').value = data.pr.prDs.prDs01.target;
     document.getElementById('pr-ds-02-current').value = data.pr.prDs.prDs02.current;
     document.getElementById('pr-ds-02-target').value = data.pr.prDs.prDs02.target;
+    document.getElementById('pr-ds-10-current').value = data.pr.prDs.prDs10.current;
+    document.getElementById('pr-ds-10-target').value = data.pr.prDs.prDs10.target;
+    document.getElementById('pr-ds-11-current').value = data.pr.prDs.prDs11.current;
+    document.getElementById('pr-ds-11-target').value = data.pr.prDs.prDs11.target;
+
     document.getElementById('pr-ps-01-current').value = data.pr.prPs.prPs01.current;
     document.getElementById('pr-ps-01-target').value = data.pr.prPs.prPs01.target;
     document.getElementById('pr-ps-02-current').value = data.pr.prPs.prPs02.current;
     document.getElementById('pr-ps-02-target').value = data.pr.prPs.prPs02.target;
+    document.getElementById('pr-ps-03-current').value = data.pr.prPs.prPs03.current;
+    document.getElementById('pr-ps-03-target').value = data.pr.prPs.prPs03.target;
+    document.getElementById('pr-ps-04-current').value = data.pr.prPs.prPs04.current;
+    document.getElementById('pr-ps-04-target').value = data.pr.prPs.prPs04.target;
+    document.getElementById('pr-ps-05-current').value = data.pr.prPs.prPs05.current;
+    document.getElementById('pr-ps-05-target').value = data.pr.prPs.prPs05.target;
+    document.getElementById('pr-ps-06-current').value = data.pr.prPs.prPs06.current;
+    document.getElementById('pr-ps-06-target').value = data.pr.prPs.prPs06.target;
+
     document.getElementById('pr-ir-01-current').value = data.pr.prIr.prIr01.current;
     document.getElementById('pr-ir-01-target').value = data.pr.prIr.prIr01.target;
+    document.getElementById('pr-ir-02-current').value = data.pr.prIr.prIr02.current;
+    document.getElementById('pr-ir-02-target').value = data.pr.prIr.prIr02.target;
+    document.getElementById('pr-ir-03-current').value = data.pr.prIr.prIr03.current;
+    document.getElementById('pr-ir-03-target').value = data.pr.prIr.prIr03.target;
+    document.getElementById('pr-ir-04-current').value = data.pr.prIr.prIr04.current;
+    document.getElementById('pr-ir-04-target').value = data.pr.prIr.prIr04.target;
+
+    // Detect
     document.getElementById('de-cm-01-current').value = data.de.deCm.deCm01.current;
     document.getElementById('de-cm-01-target').value = data.de.deCm.deCm01.target;
     document.getElementById('de-cm-02-current').value = data.de.deCm.deCm02.current;
@@ -545,6 +833,7 @@ function populateData(data) {
     document.getElementById('de-cm-06-target').value = data.de.deCm.deCm06.target;
     document.getElementById('de-cm-09-current').value = data.de.deCm.deCm09.current;
     document.getElementById('de-cm-09-target').value = data.de.deCm.deCm09.target;
+
     document.getElementById('de-ae-02-current').value = data.de.deAe.deAe02.current;
     document.getElementById('de-ae-02-target').value = data.de.deAe.deAe02.target;
     document.getElementById('de-ae-03-current').value = data.de.deAe.deAe03.current;
@@ -557,6 +846,8 @@ function populateData(data) {
     document.getElementById('de-ae-07-target').value = data.de.deAe.deAe07.target;
     document.getElementById('de-ae-08-current').value = data.de.deAe.deAe08.current;
     document.getElementById('de-ae-08-target').value = data.de.deAe.deAe08.target;
+
+    // Respond  
     document.getElementById('rs-ma-01-current').value = data.rs.rsMa.rsMa01.current;
     document.getElementById('rs-ma-01-target').value = data.rs.rsMa.rsMa01.target;
     document.getElementById('rs-ma-02-current').value = data.rs.rsMa.rsMa02.current;
@@ -567,6 +858,7 @@ function populateData(data) {
     document.getElementById('rs-ma-04-target').value = data.rs.rsMa.rsMa04.target;
     document.getElementById('rs-ma-05-current').value = data.rs.rsMa.rsMa05.current;
     document.getElementById('rs-ma-05-target').value = data.rs.rsMa.rsMa05.target;
+
     document.getElementById('rs-an-03-current').value = data.rs.rsAn.rsAn03.current;
     document.getElementById('rs-an-03-target').value = data.rs.rsAn.rsAn03.target;
     document.getElementById('rs-an-06-current').value = data.rs.rsAn.rsAn06.current;
@@ -575,14 +867,18 @@ function populateData(data) {
     document.getElementById('rs-an-07-target').value = data.rs.rsAn.rsAn07.target;
     document.getElementById('rs-an-08-current').value = data.rs.rsAn.rsAn08.current;
     document.getElementById('rs-an-08-target').value = data.rs.rsAn.rsAn08.target;
+
     document.getElementById('rs-co-02-current').value = data.rs.rsCo.rsCo02.current;
     document.getElementById('rs-co-02-target').value = data.rs.rsCo.rsCo02.target;
     document.getElementById('rs-co-03-current').value = data.rs.rsCo.rsCo03.current;
     document.getElementById('rs-co-03-target').value = data.rs.rsCo.rsCo03.target;
+
     document.getElementById('rs-mi-01-current').value = data.rs.rsMi.rsMi01.current;
     document.getElementById('rs-mi-01-target').value = data.rs.rsMi.rsMi01.target;
     document.getElementById('rs-mi-02-current').value = data.rs.rsMi.rsMi02.current;
     document.getElementById('rs-mi-02-target').value = data.rs.rsMi.rsMi02.target;
+
+    // Recover`
     document.getElementById('rc-rp-01-current').value = data.rc.rcRp.rcRp01.current;
     document.getElementById('rc-rp-01-target').value = data.rc.rcRp.rcRp01.target;
     document.getElementById('rc-rp-02-current').value = data.rc.rcRp.rcRp02.current;
@@ -595,6 +891,7 @@ function populateData(data) {
     document.getElementById('rc-rp-05-target').value = data.rc.rcRp.rcRp05.target;
     document.getElementById('rc-rp-06-current').value = data.rc.rcRp.rcRp06.current;
     document.getElementById('rc-rp-06-target').value = data.rc.rcRp.rcRp06.target;
+
     document.getElementById('rc-co-03-current').value = data.rc.rcCo.rcCo03.current;
     document.getElementById('rc-co-03-target').value = data.rc.rcCo.rcCo03.target;
     document.getElementById('rc-co-04-current').value = data.rc.rcCo.rcCo04.current;
